@@ -1,0 +1,20 @@
+header{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+ }
+ .list {
+     display: flex;
+     /* flex wrap allow it stack on multipe lines*/
+     flex-wrap: wrap;
+    justify-content: space-around;
+     
+ }
+ .shop {
+     display: flex;
+     /* justify-content is added to keep text to the left */
+     justify-content: flex-start;
+     /* flex-basis is making the content box bigger  */
+     flex-basis: 30%;
+     border: 2px dashed black;
+}
